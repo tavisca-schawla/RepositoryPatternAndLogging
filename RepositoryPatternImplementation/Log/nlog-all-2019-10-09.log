@@ -1,0 +1,169 @@
+2019-10-09 16:07:31.2012||DEBUG|RepositoryPatternImplementation.Program|init main 
+2019-10-09 16:07:35.0992||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\schawla\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-09 16:07:36.1568|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/home   
+2019-10-09 16:07:36.2462|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.HomeController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:07:36.2761|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Home"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[System.String] Get() on controller RepositoryPatternImplementation.Controllers.HomeController (RepositoryPatternImplementation). 
+2019-10-09 16:07:36.3038|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.HomeController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:07:36.3038||INFO|RepositoryPatternImplementation.Controllers.HomeController|Index page says hello 
+2019-10-09 16:07:36.3337|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.HomeController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.1289ms. 
+2019-10-09 16:07:36.3492|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-09 16:07:36.4741|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.HomeController.Get (RepositoryPatternImplementation) in 190.4291ms 
+2019-10-09 16:07:36.4741|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.HomeController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:07:36.4958|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 340.1311ms 200 application/json; charset=utf-8 
+2019-10-09 16:34:56.8823||DEBUG|RepositoryPatternImplementation.Program|init main 
+2019-10-09 16:35:01.5736||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\schawla\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-09 16:35:05.5155|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/dummy   
+2019-10-09 16:35:05.7925|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:35:05.9312|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryPatternImplementation.Models.DummyModel]] Get() on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:35:08.0279|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:35:08.0403||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed 
+2019-10-09 16:35:08.0782||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged 
+2019-10-09 16:35:08.0905||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged 
+2019-10-09 16:35:08.0905||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged 
+2019-10-09 16:35:08.1134|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 72.6455ms. 
+2019-10-09 16:35:08.1568|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-10-09 16:35:08.1726|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 2225.6731ms 
+2019-10-09 16:35:08.1885|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:35:08.5136|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3000.5872ms 204  
+2019-10-09 16:35:28.2956|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/dummy/something   
+2019-10-09 16:35:28.2956|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:35:28.3446|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[RepositoryPatternImplementation.Models.DummyModel] Get(Int32) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:35:28.3853|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'. 
+2019-10-09 16:35:28.5181|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 167.961ms 
+2019-10-09 16:35:28.5181|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:35:28.5325|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 236.9764ms 400 application/problem+json; charset=utf-8 
+2019-10-09 16:37:03.3605|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 GET https://localhost:44387/api/dummy   
+2019-10-09 16:37:03.3788|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:37:03.3962|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryPatternImplementation.Models.DummyModel]] Get() on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:37:03.4004|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:37:03.4004||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed 
+2019-10-09 16:37:03.4004||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged 
+2019-10-09 16:37:03.4199||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged 
+2019-10-09 16:37:03.4199||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged 
+2019-10-09 16:37:03.4334|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 28.0596ms. 
+2019-10-09 16:37:03.4334|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-10-09 16:37:03.4334|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 39.9961ms 
+2019-10-09 16:37:03.4334|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:37:03.4480|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 87.4649ms 204  
+2019-10-09 16:38:02.0260|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy multipart/form-data; boundary=--------------------------191265147801035058506311 169 
+2019-10-09 16:38:02.0511|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:02.0759|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:38:02.1575|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:38:02.1854|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 102.8954ms 
+2019-10-09 16:38:02.2115|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:02.2115|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 212.4256ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:38:18.4537|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy text/plain 9 
+2019-10-09 16:38:18.4537|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:18.4690|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:38:18.4781|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:38:18.5216|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 44.0933ms 
+2019-10-09 16:38:18.5490|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:18.5490|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 101.3916ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:38:58.0645|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy application/x-www-form-urlencoded 11 
+2019-10-09 16:38:58.0848|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:58.0915|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:38:58.1271|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:38:58.1271|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 14.1404ms 
+2019-10-09 16:38:58.1478|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:38:58.1584|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.9566ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:39:30.5850|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy multipart/form-data; boundary=--------------------------936960462487377939915664 169 
+2019-10-09 16:39:30.6037|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:39:30.6037|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:39:30.6037|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:39:30.6191|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 4.9834ms 
+2019-10-09 16:39:30.6191|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:39:30.6191|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 40.2929ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:40:34.0364|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy application/x-www-form-urlencoded 16 
+2019-10-09 16:40:34.0563|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:40:34.0828|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:40:34.0901|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:40:34.1062|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 16.5544ms 
+2019-10-09 16:40:34.1235|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:40:34.1235|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.273ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:40:49.8040|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy application/x-www-form-urlencoded 9 
+2019-10-09 16:40:49.8138|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:40:49.8625|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:40:49.8784|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:40:49.8784|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 4.4735ms 
+2019-10-09 16:40:49.8873|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:40:49.8873|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 91.73ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:41:07.2123|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy multipart/form-data; boundary=--------------------------308288854290065675428688 0 
+2019-10-09 16:41:07.2123|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:41:07.2672|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:41:07.2672|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:41:07.2766|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 4.8464ms 
+2019-10-09 16:41:07.2766|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:41:07.2766|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 74.7411ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:41:36.5661|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy application/x-www-form-urlencoded 0 
+2019-10-09 16:41:36.5896|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:41:36.6526|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:41:36.6526|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:41:36.6526|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 4.2663ms 
+2019-10-09 16:41:36.6771|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:41:36.6805|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 114.3835ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:42:30.0423||DEBUG|RepositoryPatternImplementation.Program|init main 
+2019-10-09 16:42:33.3383||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\schawla\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-09 16:42:34.5875|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/dummy   
+2019-10-09 16:42:34.6818|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:42:34.7372|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryPatternImplementation.Models.DummyModel]] Get() on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:42:35.4624|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:42:35.4624||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed 
+2019-10-09 16:42:35.4893||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged 
+2019-10-09 16:42:35.5000||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged 
+2019-10-09 16:42:35.5160||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged 
+2019-10-09 16:42:35.5405|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.6522ms. 
+2019-10-09 16:42:35.5858|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-10-09 16:42:35.5984|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 850.1581ms 
+2019-10-09 16:42:35.6056|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:42:35.6897|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 1102.8666ms 204  
+2019-10-09 16:42:44.1366|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy/something application/x-www-form-urlencoded 0 
+2019-10-09 16:42:44.1366|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:42:44.1822|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:42:44.2400|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:42:44.4309|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 244.704ms 
+2019-10-09 16:42:44.4309|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:42:44.4498|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 313.3991ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:43:19.0253|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/dummy/?value=%22something%22   
+2019-10-09 16:43:19.0253|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:43:19.0444|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryPatternImplementation.Models.DummyModel]] Get() on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:43:19.0444|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:43:19.0444||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed 
+2019-10-09 16:43:19.0675||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged 
+2019-10-09 16:43:19.0763||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged 
+2019-10-09 16:43:19.0763||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged 
+2019-10-09 16:43:19.0985|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 44.4251ms. 
+2019-10-09 16:43:19.0985|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-10-09 16:43:19.1056|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 56.1688ms 
+2019-10-09 16:43:19.1056|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:43:19.1056|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 90.88ms 204  
+2019-10-09 16:43:36.3688|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy/?value=something application/x-www-form-urlencoded 0 
+2019-10-09 16:43:36.3688|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint '405 HTTP Method Not Supported' 
+2019-10-09 16:43:36.3951|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint '405 HTTP Method Not Supported' 
+2019-10-09 16:43:36.4341|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 65.3443ms 405  
+2019-10-09 16:43:59.7695|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy/something application/x-www-form-urlencoded 0 
+2019-10-09 16:43:59.7799|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:43:59.7799|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:43:59.8148|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'. 
+2019-10-09 16:43:59.8313|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) in 18.1037ms 
+2019-10-09 16:43:59.8510|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:43:59.8632|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 93.7329ms 415 application/problem+json; charset=utf-8 
+2019-10-09 16:44:45.9392||DEBUG|RepositoryPatternImplementation.Program|init main 
+2019-10-09 16:44:49.8016||INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\schawla\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-09 16:44:51.3571|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44387/api/dummy   
+2019-10-09 16:44:51.5011|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:44:51.5308|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Dummy"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[RepositoryPatternImplementation.Models.DummyModel]] Get() on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:44:52.1258|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:44:52.1258||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed 
+2019-10-09 16:44:52.1514||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged 
+2019-10-09 16:44:52.1664||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged 
+2019-10-09 16:44:52.1750||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged 
+2019-10-09 16:44:52.1895|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 52.3411ms. 
+2019-10-09 16:44:52.2058|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'null'. 
+2019-10-09 16:44:52.2183|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation) in 678.378ms 
+2019-10-09 16:44:52.2183|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Get (RepositoryPatternImplementation)' 
+2019-10-09 16:44:52.2935|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 940.2441ms 204  
+2019-10-09 16:45:37.1259|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/1.1 POST https://localhost:44387/api/dummy application/json 11 
+2019-10-09 16:45:37.1259|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation)' 
+2019-10-09 16:45:37.2149|3|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Post", controller = "Dummy"}. Executing controller action with signature Void Post(System.String) on controller RepositoryPatternImplementation.Controllers.DummyController (RepositoryPatternImplementation). 
+2019-10-09 16:45:37.3568|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method RepositoryPatternImplementation.Controllers.DummyController.Post (RepositoryPatternImplementation) - Validation state: Valid 
+2019-10-09 16:45:45.8816||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy Post is accessed 

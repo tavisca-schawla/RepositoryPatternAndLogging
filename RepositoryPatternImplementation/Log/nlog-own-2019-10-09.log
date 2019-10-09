@@ -1,0 +1,26 @@
+2019-10-09 16:07:31.2012||DEBUG|RepositoryPatternImplementation.Program|init main |url: |action: 
+2019-10-09 16:07:36.3038||INFO|RepositoryPatternImplementation.Controllers.HomeController|Index page says hello |url: https://localhost/api/home|action: Get
+2019-10-09 16:34:56.8823||DEBUG|RepositoryPatternImplementation.Program|init main |url: |action: 
+2019-10-09 16:35:08.0403||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:35:08.0782||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:35:08.0905||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:35:08.0905||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:37:03.4004||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:37:03.4004||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:37:03.4199||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:37:03.4199||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:42:30.0423||DEBUG|RepositoryPatternImplementation.Program|init main |url: |action: 
+2019-10-09 16:42:35.4624||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:42:35.4893||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:42:35.5000||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:42:35.5160||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:43:19.0444||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed |url: https://localhost/api/dummy/|action: Get
+2019-10-09 16:43:19.0675||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged |url: https://localhost/api/dummy/|action: Get
+2019-10-09 16:43:19.0763||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged |url: https://localhost/api/dummy/|action: Get
+2019-10-09 16:43:19.0763||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged |url: https://localhost/api/dummy/|action: Get
+2019-10-09 16:44:45.9392||DEBUG|RepositoryPatternImplementation.Program|init main |url: |action: 
+2019-10-09 16:44:52.1258||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy GetAll is accessed |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:44:52.1514||WARN|RepositoryPatternImplementation.Controllers.DummyController|Warning is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:44:52.1664||DEBUG|RepositoryPatternImplementation.Controllers.DummyController|Debug log is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:44:52.1750||ERROR|RepositoryPatternImplementation.Controllers.DummyController|Error is logged |url: https://localhost/api/dummy|action: Get
+2019-10-09 16:45:45.8816||INFO|RepositoryPatternImplementation.Controllers.DummyController|Dummy Post is accessed |url: https://localhost/api/dummy|action: Post
